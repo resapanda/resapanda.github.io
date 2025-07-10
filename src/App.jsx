@@ -3,8 +3,8 @@ import items from './data/items';
 import Navigation from './components/Navigation';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import HomePage from './pages/HomePage';
-import OrderPage from './pages/OrderPage';
-import RegistrationPage from './pages/RegistrationPage';
+import AboutMe from './pages/AboutMe';
+import Projects from './pages/Projects';
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
-          <Route path="/shop" element={ <OrderPage items={items}/>}></Route>
-          <Route path="/register" element={ <RegistrationPage />}></Route>
+          <Route path="/aboutme" element={ <AboutMe items={items}/>}></Route>
+          <Route path="/projects" element={ <Projects />}></Route>
         </Routes>
       </Router>
     </div>

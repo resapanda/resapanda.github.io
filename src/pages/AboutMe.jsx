@@ -1,7 +1,7 @@
 import OrderTable from "../components/OrderTable";
 import "../App.css"
 
-function OrderPage({items}) {
+function AboutMe({items}) {
     return (
       <div>
         <h2>Order Your Groceries</h2>
@@ -11,4 +11,4 @@ function OrderPage({items}) {
     );
   }
   
-  export default OrderPage;
+  export default AboutMe;

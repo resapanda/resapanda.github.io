@@ -1,6 +1,6 @@
 import RegistrationInfo from "../components/RegistrationInfo";
 
-function RegistrationPage() {
+function Projects() {
     return (
       <div>
         <h2>Register to receive promotions</h2>
@@ -10,4 +10,4 @@ function RegistrationPage() {
     );
   }
   
-  export default RegistrationPage;
+  export default Projects;
