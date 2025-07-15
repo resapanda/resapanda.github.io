@@ -1,9 +1,7 @@
 function HomePage() {
     return (
       <div>
-        <h2>Welcome to Beaver Mart!</h2>
-        <p>Shop for what you need</p>
-        <p>Register for promotions</p>
+        <h2>Welcome to my page!</h2>
       </div>
     );
   }
