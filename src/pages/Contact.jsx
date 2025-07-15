@@ -1,13 +1,18 @@
 import "../App.css"
 import { GrPhone } from "react-icons/gr";
+import { MdOutlineMail } from "react-icons/md";
+import { TbWorld } from "react-icons/tb";
+
 
 function Contact() {
     return (
       <div>
         <h2>Contact</h2>
-        <GrPhone/> <p>+1 206-496-6350</p>
-        <p>haru.banin@gmail.com</p>
-        <p>https://resapanda.github.io/</p>
+        <span>
+            <GrPhone /> +1 206-496-6350
+            <MdOutlineMail/> haru.banin@gmail.com
+            <TbWorld/> <a href = "https://resapanda.github.io/"></a>
+        </span>
       </div>
     );
   }
