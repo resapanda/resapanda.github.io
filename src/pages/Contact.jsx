@@ -10,8 +10,12 @@ function Contact() {
         <h2>Contact</h2>
         <span>
             <GrPhone /> +1 206-496-6350
+        </span>
+        <span>
             <MdOutlineMail/> haru.banin@gmail.com
-            <TbWorld/> <a href = "https://resapanda.github.io/"></a>
+        </span>
+        <span>
+            <TbWorld/> <a href = "https://resapanda.github.io/"> https://resapanda.github.io/</a>
         </span>
       </div>
     );
